@@ -172,8 +172,40 @@
     border: solid 1px #FF6A6A;
     padding: 15px 40px;
 }
-.inform {
-    height: 348px;
-    background:#222224;
+.delivery {
     margin-top: 95px;
+    display: flex;
+    background: #222224;
+    height: 350px;
+
+}
+.dilivery__wrap {
+    display: flex;
+}
+.delivery__item {
+    justify-content: center;
+    align-items: center;
+  
+}
+.dilivery__decor {
+    text-align: center;
+    width: 100%;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 30px auto;
+
+}
+.dilivery__text {
+    margin-top: 16px;
+    width: 100%;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    margin: 15px auto;
+
+}
+.img_decor {
+    padding: 100px 0 0 170px;
 }
