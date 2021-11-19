@@ -73,7 +73,6 @@
     justify-content: center;
     width: 100%;
     height: 180px;
-    background: red;
 }
 .category__item:not(:last-child) {
     width: 360px;
@@ -208,4 +207,78 @@
 }
 .img_decor {
     padding: 100px 0 0 170px;
+}
+.Subscribe {
+    background-image: url(./img/Subscribe_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+.Subscribe__wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+.Subscribe_left {
+    background-image: url(./img/sub_women.png);
+    background-repeat: no-repeat;
+    background-position: top 70px left 125px;
+    height: 500px;
+}
+.sub__text {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+
+}
+.Subscribe_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub__info {
+    text-align: center;
+    font-size: 24px;
+    color: #222224;
+
+
+}
+.sub__decor {
+    margin-top: 10px;
+}
+.form__decor {
+    width: 100%;
+}
+.pole {
+    height: 50px;
+    width: 79%;
+    font-size: 14px;
+    color: #222224;
+    margin-top: 32px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+.button_dekor {
+    height: 50px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+}
+.footer {
+    height: 100px;
+    
 }
