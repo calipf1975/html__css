@@ -299,6 +299,7 @@
 .footer__wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 100%;
 }
 .footer__left {
@@ -315,22 +316,25 @@
 }
 .footer__right {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+
 }
 .footer__item {
-    width: 50px;
-    height: 50px;
     background: #FFFFFF;
    
 }
 .footer__item:not(:last-child) {
      margin: 0 30px 0 0;
 }
-.footer_img {
-    display: block;
-    margin: 15px auto;
-    width: 20px;
-    height: 20px;
+.ikon {
+    font-size: 30px;
+    color:black;
+    border: solid 2px white;
 }
+
+.a__dekor {
+    text-decoration: none;
+}
+.ikon:hover {
+   color: #F16D7F; 
+}
+
