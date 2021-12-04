@@ -1,0 +1,29 @@
+
+.promo {
+    background: #F1E4E6;
+    height: 764px;
+    &__title {
+        max-width: 407px;
+        padding-left: 16px;
+        border-left: 12px solid #F16D7F;
+    }
+    & .wrap {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+        background: url('./img/man.png') no-repeat -228px;
+    }
+    & span {
+        color: red;
+        font-size: 30px;
+        line-height: 58px;
+    }
+    & h1 {
+        font-size: 50px;
+    }
+    & h2 {
+        font-family: Lato;
+        font-size: 30px;
+    }
+}

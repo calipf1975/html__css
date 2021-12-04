@@ -1,0 +1,137 @@
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    &__card {
+        & .card {
+            display: flex;
+            width: 650px;
+            height: 306px;
+            margin-bottom: 40px;
+            box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+        }
+        & .text {
+            width: 260px;
+            margin-left: 30px;
+            padding-top: 20px;
+       }
+       & h4 {
+            font-size: 28px;
+            line-height: 29px;
+            color: #222222;
+            margin-bottom: 40px;
+       } 
+        & p {
+            line-height: 26px;
+            color: #575757;
+            margin-top: 5px;
+            font-size: 22px;
+        }
+        & .decor {
+            width: 18px;
+            height: 18px;
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+        & .btn--mini {
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            padding: 15px 40px;
+            border: 1px solid #A4A4A4;
+            background: white;
+            margin-top: 50px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+
+        }
+        & .btn--mini:not(:last-child) {
+            margin-right: 180px;
+        }
+    }
+    &__form {
+        height: 100%;
+        & .adress h4 {
+            font-size: 16px;
+            line-height: 19px;
+            color: #222222;
+ 
+        }
+        & .adress input {
+            font-size: 13px;
+            line-height: 16px;
+            color: #222222;
+            padding: 12px 270px 15px 16px;
+            margin-top: 20px;
+
+        }
+        & .adress button {
+            margin-top: 20px;
+            padding: 10px 14px;
+            font-size: 11px;
+            line-height: 13px;
+            color: #4A4A4A;
+
+        }
+        & .total {
+            margin-top: 30px;
+            height: 215px;
+            background: #F5F3F3;
+        }
+        & p {
+            font-size: 11px;
+            line-height: 13px;
+            color: #4A4A4A;
+            padding: 40px 40px 0 300px;
+            box-sizing: border-box;
+            & span {
+                margin-left: 20px;
+            }
+
+        }
+        & h3 {
+            font-size: 16px;
+            line-height: 19px;
+            color: #222222;
+            padding: 12px 40px 0 250px;
+            box-sizing: border-box;
+            & span {
+                color: #F16D7F;
+                margin-left: 5px;
+            }
+
+        }
+        & hr {
+            margin-top: 20px;
+        }
+        & .btn {
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            padding: 15px 40px;
+            border: 1px solid #A4A4A4;
+            background: #F16D7F;
+            margin-top: 50px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            display: block;
+            margin: 15px auto; 
+        }
+         
+    }
+ }   
+
+
+
+
+
+
+
+
+
+
+
+
