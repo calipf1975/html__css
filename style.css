@@ -823,4 +823,89 @@ summary {
   display: block;
   margin: 15px auto;
 }
+
+.registrasion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 64px;
+}
+
+.registrasion form {
+  width: 350px;
+}
+
+.registrasion form input {
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+  padding: 12px 200px 15px 16px;
+  margin-top: 20px;
+}
+
+.registrasion form h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.registrasion form p {
+  width: 360px;
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.registrasion form button {
+  margin-top: 40px;
+  padding: 20px 90px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #F16D7F;
+  margin-bottom: 96px;
+}
+
+.registrasion form .radio {
+  margin: 30px 30px 30px 0;
+}
+
+.registrasion form .label {
+  margin-right: 30px;
+}
+
+.registrasion form i {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.registrasion__text {
+  width: 650px;
+}
+
+.registrasion__text li {
+  list-style-type: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 30px;
+  width: 650px;
+}
+
+.registrasion__text h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.registrasion__text h6 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
