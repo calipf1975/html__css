@@ -922,4 +922,117 @@ summary {
   color: #000000;
   margin-top: 20px;
 }
+
+.slaider {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  height: 1400px;
+}
+
+.slaider__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 777px;
+  background: #F7F7F7;
+}
+
+.slaider__img button {
+  background: rgba(42, 42, 42, 0.15);
+  color: #fff;
+  padding: 15px;
+}
+
+.slaider__img button i {
+  color: #000000;
+  font-size: 30px;
+}
+
+.slaider__img button i:hover {
+  color: #F16D7F;
+}
+
+.slaider__form {
+  width: 1140px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #EAEAEA;
+  position: absolute;
+  top: 720px;
+  left: 350px;
+  z-index: 1;
+  background: #FFFFFF;
+}
+
+.slaider__form h5 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-top: 65px;
+}
+
+.slaider__form .decor {
+  width: 65px;
+  border: solid 1px #F16D7F;
+  margin-top: 12px;
+}
+
+.slaider__form h4 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-top: 12px;
+}
+
+.slaider__form p {
+  width: 550px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  margin-top: 50px;
+}
+
+.slaider__form strong {
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  margin-top: 32px;
+}
+
+.slaider__form hr {
+  margin-top: 65px;
+  width: 640px;
+  border: 1px solid #EAEAEA;
+}
+
+.slaider__form .centr {
+  margin-top: 65px;
+}
+
+.slaider__form .card__btn {
+  background: #FFFFFF;
+  border: 1px solid #FF6A6A;
+  color: #FF6A6A;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
