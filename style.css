@@ -824,6 +824,13 @@ summary {
   margin: 15px auto;
 }
 
+.application__form .btn:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 20s;
+  transition: 20s;
+}
+
 .registrasion {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -868,6 +875,13 @@ summary {
   color: #FFFFFF;
   background: #F16D7F;
   margin-bottom: 96px;
+}
+
+.registrasion form button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .registrasion form .radio {

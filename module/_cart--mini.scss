@@ -120,6 +120,10 @@
             display: block;
             margin: 15px auto; 
         }
+        & .btn:hover {
+            transform: rotate(360deg);
+            transition: 20s;
+        }
          
     }
  }   

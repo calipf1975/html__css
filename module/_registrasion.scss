@@ -16,6 +16,7 @@
             font-size: 16px;
             line-height: 19px;
             color: #222222;
+            
  
         }
         p {
@@ -35,6 +36,11 @@
             background: #F16D7F;
             margin-bottom: 96px;
         }
+        button:hover{
+            transform: scale(1.5);
+            transition: 2s;
+            
+        } 
         & .radio {
             margin: 30px 30px 30px 0;
         }
