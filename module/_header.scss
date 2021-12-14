@@ -1,0 +1,17 @@
+.header {
+    background: #222222;
+    color: white;
+        & .wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &  a {
+            text-decoration: none;
+            margin-right: 41px;
+        } 
+        &   img:not(:last-child) {
+            margin-right: 33px;
+        }
+      
+}
